@@ -1,0 +1,54 @@
+body {
+    margin: 20px
+}
+
+.header_div {
+    height: 200px;
+    width: 100%;
+    display: inline-block;
+    background-color: lightgreen;
+}
+
+.header_div .info {
+    width: 80%;
+    padding-top: 25px;
+    padding-left: 6px;
+    float: left;
+}
+
+.header_div address {
+    margin-top: 10px;
+}
+
+.header_div .profile_img {
+    width: 18%;
+    float: right;
+    text-align: right;
+    padding: 6px;
+}
+
+.chip_container {
+    margin: 10px;
+}
+
+.chip_container span {
+    border-radius: 25px;
+    background: #daa520;
+    padding: 6px;
+    text-transform: uppercase;
+}
+
+table.tbl-info {
+    margin-left: 15px;
+    font-size: 17px;
+    border-collapse: collapse;
+}
+.tbl-info th, .tbl-info td {
+    min-width: 70px;
+    padding-bottom: 7px;
+    text-align: left;
+}
+.experience table.tbl-info th {
+    min-width: 100px;
+    text-align: left;
+}
