@@ -1,0 +1,36 @@
+body {
+    align-items: center;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    
+  }
+  
+  .animation-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+  }
+  
+  .animation {
+    height: 450px;
+    width: 450px;
+    display: flex;
+    position: relative;
+    animation-name: movingcar;
+    animation-duration: 1500ms;
+    animation-iteration-count: 5;
+    fill: black;
+  }
+  
+  @keyframes movingcar{
+    0%{left:0px}
+    25%{left:50px; fill:violet}
+    50%{left:100px; fill:purple}
+    25%{left:150px; fill:blueviolet}
+    100%{left:2000px; fill: blue}
+  }
